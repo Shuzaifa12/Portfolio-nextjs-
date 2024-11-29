@@ -20,9 +20,16 @@ const Header = () => {
             <a href="https://github.com/Shuzaifa12" target='_blank'><Image src={github} alt='Linkedin_logo' height={30} width={40} className='bg-gray-300  p-1'></Image></a>
             
             </div>
+
+            <div className='lg:flex space-x-3'>
             <a href="/Dev Resume.pdf" download="Syed_Huzaifa_Resume.pdf">
-            <button className='border-[1px] border-white text-white px-8 py-1 rounded-2xl my-4 bg-[#FA6E00] font-bold'>Download Resume</button>
+              <button className='border-[1px] border-white text-white px-8 py-1 rounded-2xl my-4 bg-[#FA6E00] font-bold'>Download Resume</button>
             </a>
+            <Link href="/form">
+              <button className='border-[1px] border-white px-8 py-1 rounded-2xl my-2 lg:my-4  text-[#FA6E00] font-bold'>Hire me</button>
+            </Link>
+
+            </div>
         </div>
 
         
